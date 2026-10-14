@@ -1,0 +1,1 @@
+AlphaPaws Illustrated Adventure — upload index.html, biscuit.png and garden-scene.jpg to the ROOT of your Alpha-Paws GitHub repository. This is an illustrated UI pass; alphabet answer objects and sticker rewards are still emoji placeholders, pending a full matching illustration set. Your original save key, voice settings, lessons and parent controls remain unchanged.
