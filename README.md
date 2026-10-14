@@ -1,13 +1,19 @@
-# AlphaPaws 🐾
+# AlphaPaws — Illustrated Edition
 
-A preschool letter-learning and sticker collecting game with Biscuit the animated puppy.
+A preschool alphabet and sticker game for ages 3–5. This update replaces the CSS-drawn puppy with an illustrated Biscuit cutout and adds a garden illustration to the sticker board. The puppy bobs and celebrates, while clouds, butterflies, and flowers animate independently. Existing voice selection, parental controls, alphabet lessons and progress storage remain intact.
 
-## Publish with GitHub Pages
-Upload `index.html` to the root of your repository, replacing the previous file. Under Settings → Pages, deploy from `main` / `(root)`.
+## Upload to GitHub Pages
+Upload `index.html` and the complete `assets` folder to the **root** of your existing repository. Keep the exact names and capitalization. Your repository should contain:
 
-## Choose Biscuit’s voice
-Open **⚙️ Grown-ups**, solve the parent question, then choose a voice from **Biscuit’s voice**. Tap **Preview voice** to listen. Your selection is saved on this browser. Tap **Refresh voice list** if choices haven't loaded.
+```
+index.html
+README.md
+assets/
+  biscuit.png
+  garden.jpg
+```
 
-The game prefers certain female-sounding English voices when available, but browser speech engines do not expose a reliable voice gender setting. Voice names, sound, and availability differ between iPhone, Android, and desktop. If a saved voice isn't available on another device, the game falls back to an available English voice.
+Commit changes and refresh your GitHub Pages URL. On iPhone, close/reopen Safari or refresh if the old art is cached.
 
-The app also includes animated garden elements, easy mode, sticker rewards, and a drag-and-drop sticker board. Progress is saved locally.
+## Artwork and animation notes
+The puppy art is cropped from the illustrated AlphaPaws concept and gently feathered; it is **not** a fully rigged walking character. The current motion is CSS-based idle bobbing and jumping. True walking, blinking and independent tail motion will need separate pose/layer assets or sprite frames. The background and flowers are separate elements, allowing independent motion. Voice options depend on browser/OS.
